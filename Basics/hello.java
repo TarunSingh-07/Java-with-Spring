@@ -40,7 +40,6 @@ class hello {
 
         int result1 = m*n;
         System.out.println(result1);
-        
     }
 }
 
