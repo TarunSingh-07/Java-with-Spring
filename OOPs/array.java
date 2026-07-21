@@ -1,3 +1,4 @@
+package OOPs;
 // public class array {
 //     public static void main(String[] args) {
 //         int num[] = {3, 7, 2, 4};
