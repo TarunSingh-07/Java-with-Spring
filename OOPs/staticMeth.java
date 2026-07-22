@@ -52,3 +52,5 @@ public class staticMeth {
 
     }
 }
+
+// the new keyword in Java is used to create instances of objects, which involves allocating memory for that object at runtime. 
