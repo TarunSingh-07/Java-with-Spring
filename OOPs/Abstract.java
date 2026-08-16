@@ -5,16 +5,15 @@ package OOPs;
 abstract class Car {
     public abstract void drive();   // Abstract method (does not have a body)
     public abstract void fly();     // Every abstract class must have at least one abstract method. 
-                                    // If a class does not have any abstract method, then it can be declared as an abstract class.
-
+                                    // But a class can also be declared abstract even if it has no abstract methods.
     public void playMusic(){
         System.out.println("play music");
     }
 }
 // We have to implement all the abstract methods of the abstract class Car.
 // Otherwise, we will get a compilation error. (Example: if we don't implement fly() in WagonR, we will get a compilation error.)
-// So, to avoid that, WagonR must also be abstract if it doesn't implement all abstract methods.
-// But we cannot create an object of an abstract class like WagonR.
+// If a subclass does not implement all inherited abstract methods, then the subclass must also be declared abstract.
+// But we cannot create an object of an abstract class like "WagonR" . Ex : WagonR obj = new WagonR(); --> Compile-time error.
 abstract class WagonR extends Car {
 
     //either
