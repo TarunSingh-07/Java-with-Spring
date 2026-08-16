@@ -1,6 +1,6 @@
 package AdvancedJava;
 
-class A {
+class AI {
 
     int age;
 
@@ -19,10 +19,10 @@ class A {
 public class InnerClass {
     public static void main(String[] a) {
 
-        A obj = new A();
+        AI obj = new AI();
         obj.show();
 
-        A.B obj1 = obj.new B();
+        AI.B obj1 = obj.new B();
         obj1.config();
     }
 
