@@ -25,7 +25,7 @@ class Developer {
 public class Interface_2 {
    public static void main(String[] args) {
     Computer lap = new Laptop();  // It is interface reference variable.
-       Computer desk = new Desktop();
+    Computer desk = new Desktop();
 
        Developer Eq = new Developer();
        Eq.devApp(lap);

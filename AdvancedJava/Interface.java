@@ -21,8 +21,8 @@ class B implements Alex {
 
 public class Interface {
     public static void main(String[] args) {
-        Alex obj;           // We can't create obj of Alex because it is an interface. We can only create an object of the class that implements the interface.
-        obj = new B();
+        Alex obj;           // Here we are creating a reference of the interface Alex. "This does NOT create an object. It only creates a reference variable."
+        obj = new B();      // We can't create obj of Alex because it is an interface. We can only create an object of the class that implements the interface.
         obj.show();
         obj.config();
 
@@ -31,3 +31,10 @@ public class Interface {
 
     }
 }
+
+// Reference Type = Alex
+// Object Type = B
+
+// This is called Interface Reference.
+
+// An interface cannot be instantiated, but a reference of an interface can refer to any object of a class that implements that interface. This enables abstraction and runtime polymorphism.
