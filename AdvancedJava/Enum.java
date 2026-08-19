@@ -15,7 +15,7 @@ public class Enum {
         //Print all the values of the enum
         Status [] ss = Status.values();   //values() method returns an array containing all of the values of the enum in the order they are declared. 
         for(Status s1 : ss) {
-            System.out.println(s1 + " : " + s1.ordinal());
+            System.out.println(s1 + " : " + s1.ordinal());   //ordinal() method returns the position of the enum constant in the enum declaration, where the initial constant is assigned an ordinal of zero.
         }
     }
 }
